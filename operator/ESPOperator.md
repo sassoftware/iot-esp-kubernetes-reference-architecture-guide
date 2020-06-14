@@ -393,7 +393,7 @@ The ingress resource by itself has no effect. You need an ingress controller to 
 
 The figure below presents the ingress.
 
-![Ingress](archImages/ingress.png)
+![Ingress](https://github.com/sassoftware/iot-esp-kubernetes-reference-architecture-guide/blob/master/archImages/ingress.png)
 
 ### The Ingress Controller
 The [ingress controller](https://kubernetes.io/docs/concepts/services-networking/ingress-controllers/) is an application that runs in a cluster and is responsible for managing the ingress resources. Most of the cloud providers such as AWS, Azure, and GCP provide their own implementation for the ingress controllers. There are many other implementations out there that can be used in any cloud environment. However, the most popular one is the Nginx Ingress Controller which we will discuss next. 
