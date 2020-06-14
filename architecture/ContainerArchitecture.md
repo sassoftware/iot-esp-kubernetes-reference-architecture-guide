@@ -4,7 +4,7 @@ Before we dive in to Kubernetes, here is a brief introduction to container techn
 
 By definition, a container is a single isolated process running in the host’s operating system, consuming only the resources required by the applications. Containers provide similar resources and isolation benefits to those of virtual machines but are lightweight because they virtualize the host OS instead of the hardware. A container is a package of application or applications with all the dependencies, binaries, libraries and configuration files required for execution. Containers perform all the system calls on the same kernel running in the host OS. For a visual depiction, see the figure below. 
 
-![Container Architecture](archImages/Container_Architecture.png)
+![Container Architecture](iot-esp-kubernetes-reference-architecture-guide/archImages/Container_Architecture.png)
 
 Due to the low overhead of containers, they are a much better choice than VMs when running a great number of processes in isolation on the same machine. A process that runs in a container starts up immediately, within seconds, and nothing needs to be booted up.  Containers are portable and efficient, with less space consumption, using very few system resources. 
 
