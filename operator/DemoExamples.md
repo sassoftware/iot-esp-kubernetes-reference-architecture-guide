@@ -160,7 +160,7 @@ strimzi-cluster-operator-6b5874876-zvw46             1/1     Running            
 
 The figure below is an illustration of this example. 
 
-![Kafka Example](archImages/Kafka_Example-_HL_Architecture_with_ESP_6.2_Kubernetes.png)
+![Kafka Example](https://github.com/sassoftware/iot-esp-kubernetes-reference-architecture-guide/blob/master/archImages/Kafka%20Example-%20HL%20Architecture%20with%20ESP%206.2%20Kubernetes.png)
 
 In this example, we need to launch two different ESP XML projects. 
 
