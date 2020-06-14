@@ -249,7 +249,7 @@ FLANNEL_MTU=1450
 FLANNEL_IPMASQ=true
 ````
 
-![Flannel Network](archImages/FlannelESPKube.png)
+![Flannel Network](https://github.com/sassoftware/iot-esp-kubernetes-reference-architecture-guide/blob/master/archImages/FlannelESPKube.png)
 
 Run the following command to setup the flannel pod networking as presented in the above figure.
 
