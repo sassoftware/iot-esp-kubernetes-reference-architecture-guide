@@ -20,7 +20,7 @@ In this section, we will discuss:
 
 A Kubernetes cluster is a group of nodes that consists of a master node and worker nodes. Kubernetes follows a master-slave architecture. The nodes might be bare-metal servers, on-premises virtual machines or physical machines, or virtual machines on any cloud provider. We will now discuss the various components of master and worker nodes, as shown in Figure below.
 
-![Kubernetes Architecture](archImages/KubernetesArchitecture.png)
+![Kubernetes Architecture](https://github.com/sassoftware/iot-esp-kubernetes-reference-architecture-guide/blob/master/archImages/KubernetesArchitecture.png)
 
 ### Kubernetes Master Node
 
