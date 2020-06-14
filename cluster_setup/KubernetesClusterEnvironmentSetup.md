@@ -356,19 +356,19 @@ The output of the above command is as follows:
 
 ```posh
 [cloud-user@espkube-1 ~]$ kubectl get pods --all-namespaces
-NAMESPACE             NAME                                                               READY    STATUS        RESTARTS        AGE
-kube-system   coredns-584795fc57-pjg58                                                    1/1     Running            0          27d
-kube-system   coredns-584795fc57-r8smp                                                    1/1     Running            0          27d
-kube-system   etcd-espkube-1.sas.com                                                      1/1     Running            0          27d
-kube-system   kube-apiserver-espkube-1.sas.com                                            1/1     Running            0          27d
-kube-system   kube-controller-manager-espkube-1.sas.com                                   1/1     Running            0          27d
-kube-system   kube-flannel-ds-amd64-7jh8n                                                 1/1     Running            0          27d
-kube-system   kube-flannel-ds-amd64-8skgk                                                 1/1     Running            0          27d
-kube-system   kube-flannel-ds-amd64-xgz92                                                 1/1     Running            0          27d
-kube-system   kube-proxy-jx7dl                                                            1/1     Running            0          27d
-kube-system   kube-proxy-m6qd6                                                            1/1     Running            0          27d
-kube-system   kube-proxy-spfkm                                                            1/1     Running            0          27d
-kube-system   kube-scheduler-espkube-1.sas.com                                            1/1     Running            0          27d
+NAMESPACE             NAME                                        READY    STATUS        RESTARTS        AGE
+kube-system   coredns-584795fc57-pjg58                             1/1     Running            0          27d
+kube-system   coredns-584795fc57-r8smp                             1/1     Running            0          27d
+kube-system   etcd-espkube-1.sas.com                               1/1     Running            0          27d
+kube-system   kube-apiserver-espkube-1.sas.com                     1/1     Running            0          27d
+kube-system   kube-controller-manager-espkube-1.sas.com            1/1     Running            0          27d
+kube-system   kube-flannel-ds-amd64-7jh8n                          1/1     Running            0          27d
+kube-system   kube-flannel-ds-amd64-8skgk                          1/1     Running            0          27d
+kube-system   kube-flannel-ds-amd64-xgz92                          1/1     Running            0          27d
+kube-system   kube-proxy-jx7dl                                     1/1     Running            0          27d
+kube-system   kube-proxy-m6qd6                                     1/1     Running            0          27d
+kube-system   kube-proxy-spfkm                                     1/1     Running            0          27d
+kube-system   kube-scheduler-espkube-1.sas.com                     1/1     Running            0          27d
 [cloud-user@espkube-1 ~]$
 ```
 
