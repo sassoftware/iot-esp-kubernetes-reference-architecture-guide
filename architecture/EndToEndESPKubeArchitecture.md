@@ -16,7 +16,7 @@ We will now discuss the high-level end-to-end ESP-Kube multi-tenancy architectur
 
 The Figure below depicts the multi-tenant ESP-Kube architecture of the Kubernetes master node, which consists of shared and non-shared namespaces. 
 
-![ESP-Kube Master Node Architecture](archImages/ESPKubeMasterNode.png)
+![ESP-Kube Master Node Architecture](https://github.com/sassoftware/iot-esp-kubernetes-reference-architecture-guide/blob/master/archImages/ESPKubeMasterNode.png)
 
 The ESP-Kube architecture relies on namespaces to provide cluster sharing among many clients, i.e., creating an independent workspace for each client with no or little sharing. In other words, multi-tenancy, a deployment architecture, is designed to provide all tenants with a dedicated share of the cluster, including storage, CPU and memory resources, configurations, user-management, and other services. Multi-tenancy can save costs while providing isolation, security, and privacy for customers running their own applications. 
 
@@ -74,7 +74,7 @@ The Container Registry is a repository from where clients can pull the SAS ESP i
 
 The Figure below demonstrates the architecture of a worker node that runs three pods with different numbers of containers. This means that each pod can be configured to run different types of workloads. Here, all the pods have a common container (Container 1). The inclusion of Container 2 and Container 3 depends on the requirement for executing the workloads.
 
-![ESP-Kube Worker Node Architecture](archImages/ESPKubeWorkerNode.png)
+![ESP-Kube Worker Node Architecture](https://github.com/sassoftware/iot-esp-kubernetes-reference-architecture-guide/blob/master/archImages/ESPKubeWorkerNode.png)
 
 When the pods are deployed by the master node, the custom resource specification has information about the containers running in it.
 
