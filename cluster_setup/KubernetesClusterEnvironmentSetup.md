@@ -18,6 +18,8 @@ We will now provide system requirements and step-by-step instructions to install
     * [Configuring the Worker Nodes](KubernetesClusterEnvironmentSetup.md#configuring-the-worker-nodes)
     * [Verifying the cluster](KubernetesClusterEnvironmentSetup.md#verifying-the-cluster)
 
+**Disclaimer:** This section helps the users to setup the Kubernetes cluster prior to using SAS ESP Kubernetes deployments. We do not provide any support for performing these instructions. The instructions are for the purpose of helping the users to know what needs to done and present one possible way of configuration.
+
 ## Hardware Requirements
 
 1.	An active cluster on a cloud platform (AWS EC2, Azure, GCP, OpenStack etc.) or on-prem VMs. [SAS employees can request an environment from here](http://sww.sas.com/sites/it/cloud-services/).
