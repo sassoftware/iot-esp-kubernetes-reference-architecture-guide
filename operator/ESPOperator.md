@@ -414,7 +414,7 @@ The following section will provide the commands and step to configure ingress re
 ### Configuration and Integration of the Ingress
 To set up the nginx ingress controller we have to run the manifests provided by [Nginx](https://docs.nginx.com/nginx-ingress-controller/overview/). There are primarily a few manifests that deploy the basic default configuration. Users have two options to deploy the ingress controller, i.e., [Deployment](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/) and [DaemonSet](https://kubernetes.io/docs/concepts/workloads/controllers/daemonset/).
 
-**NOTE**:  *We do not provide any support for the Ingress setup. The instructions below must be used only as a sample example to configure the Ingress Controller.* 
+**NOTE**:  *We do not provide any support for the Ingress setup. The instructions below must be used only as a sample example to configure the Ingress Controller. We here demonstrate one of the many possible ways to perform the configuration* 
 
 In our configuration, we will use Deployment and configure a [NodePort](https://kubernetes.io/docs/concepts/services-networking/service/#type-nodeport) service for accessing the ingress controller pods. 
 We have used the files from the [repository](https://github.com/nginxinc/kubernetes-ingress) that are maintained by Nginx. These are ready to use files for a simple setup. 
