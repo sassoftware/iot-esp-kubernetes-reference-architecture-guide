@@ -61,7 +61,9 @@ We use [Strimzi Kafka Operator](https://github.com/strimzi/strimzi-kafka-operato
 
 The example demonstrates the Horizontal Pod Autoscaling for a stateless application running in the ESP Server Pods. 
 
-Lets now set the Kafka Cluster. We create a folder named `kafka` in your project directory (or a directory of your choice) to install Kafka Operator
+**NOTE**: *Kafka manifests are provided by Strimzi Kafka Operator. We do not provide any support for its installation. The instructions below must be used only as a sample example to configure the kafka cluster. Users can install any Kafka operator of their choice.*
+
+Lets now set the Kafka Cluster. We create a folder named `kafka` in your project directory (or a directory of your choice) to install Kafka Operator.
 
 ```sh
 # cd kafka
