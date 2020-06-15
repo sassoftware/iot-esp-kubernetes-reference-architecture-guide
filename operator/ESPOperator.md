@@ -224,7 +224,7 @@ Kubernetes provides storage management using two API resources: `PersistentVolum
 
 Following is the code snippet of `pv.yaml` (created in the `/deploy` folder) that can be used directly. If it is not present, you can copy the code from here. In the file, we define the name of the volume, the namespace it belongs to, the dedicated path where the NFS is mounted, and its capacity.
 
-**NOTE**: The users must configure a persistent volume on their own before deploying the below manifest. We do not provide any support for configuring a persistent volume.
+**NOTE**: *The users must configure a persistent volume on their own before deploying the below manifest. We do not provide any support for configuring a persistent volume.*
 
 ```sh
 #
@@ -299,7 +299,7 @@ We use the persistent volume that we have configured at location `/mnt/data/espk
 
 You must explicitly install and configure the Kubernetes metrics server for monitoring performance - CPU utilization (cores), memory usage (bytes) and resource consumption for [Horizontal Pods Autoscaler](https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/).
 
-**NOTE**: Kubernetes Metrics Server manifests are provided by Kubernetes. We do not provide any support for its installation. The instructions below must be used only as a sample example to configure the metrics server. 
+**NOTE**: *Kubernetes Metrics Server manifests are provided by Kubernetes. We do not provide any support for its installation. The instructions below must be used only as a sample example to configure the metrics server.* 
 
 You can download the manifests from the [Metrics Server GitHub project](https://github.com/kubernetes-sigs/metrics-server).
 
@@ -414,7 +414,7 @@ The following section will provide the commands and step to configure ingress re
 ### Configuration and Integration of the Ingress
 To set up the nginx ingress controller we have to run the manifests provided by [Nginx](https://docs.nginx.com/nginx-ingress-controller/overview/). There are primarily a few manifests that deploy the basic default configuration. Users have two options to deploy the ingress controller, i.e., [Deployment](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/) and [DaemonSet](https://kubernetes.io/docs/concepts/workloads/controllers/daemonset/).
 
-**NOTE**:  We do not provide any support for the Ingress setup. The instructions below must be used only as a sample example to configure the Ingress Controller. 
+**NOTE**:  *We do not provide any support for the Ingress setup. The instructions below must be used only as a sample example to configure the Ingress Controller.* 
 
 In our configuration, we will use Deployment and configure a [NodePort](https://kubernetes.io/docs/concepts/services-networking/service/#type-nodeport) service for accessing the ingress controller pods. 
 We have used the files from the [repository](https://github.com/nginxinc/kubernetes-ingress) that are maintained by Nginx. These are ready to use files for a simple setup. 
