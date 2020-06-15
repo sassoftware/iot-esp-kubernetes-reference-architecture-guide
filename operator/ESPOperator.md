@@ -564,5 +564,9 @@ espfb    espfb.espkube.sas.com      10.97.163.71      80      27d
 
 Once the ingress is up and running, the users can access the filebrowser using the URL `espfb.espkube.sas.com`. You can use `admin/admin` as the credentials for `username/password`.
 
+From your web browser:
+
+![File Browser](https://github.com/sassoftware/iot-esp-kubernetes-reference-architecture-guide/blob/master/archImages/filebrowser.png)
+
 
 
