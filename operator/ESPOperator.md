@@ -224,7 +224,7 @@ Kubernetes provides storage management using two API resources: `PersistentVolum
 
 Following is the code snippet of `pv.yaml` (created in the `/deploy` folder) that can be used directly. If it is not present, you can copy the code from here. In the file, we define the name of the volume, the namespace it belongs to, the dedicated path where the NFS is mounted, and its capacity.
 
-**NOTE**: The users must configure a persistent volume before deploying the below manifest.
+**NOTE**: The users must configure a persistent volume on their own before deploying the below manifest. We do not provide any support for configuring a persistent volume.
 
 ```sh
 #
