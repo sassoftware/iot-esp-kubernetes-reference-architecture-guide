@@ -15,7 +15,7 @@ Open the SAS ESP Studio in the web browser (Google Chrome preferred) using the u
 
 * In the ESP studio, you can create your own model using the windows in the left panel along with the editable XML in the right panel and then deploy it in the Kubernetes namespace `espkube`.
 
-**NOTE**: This ESP Model is not provided. Users can create their own models.
+Note that this ESP Model is not provided. Users can create their own models.
 
 ![Create and Deploy the Model](https://github.com/sassoftware/iot-esp-kubernetes-reference-architecture-guide/blob/master/single_user_clients/images/ModelInStudio.png)
 
