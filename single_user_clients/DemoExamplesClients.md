@@ -53,3 +53,9 @@ When you stop the project, the server is also deleted from the Kubernetes cluste
 
 ## SAS Event Stream Manager
 
+Open the SAS Event Stream Manager in the browser using the URL:
+http://esm.espkube.sas.com/SASEventStreamManager
+
+* We will now create Deployment under the `Deployments` tab. As a sample example, we have created a deployement called `testDeployment`.
+
+![Create testDeployment](https://github.com/sassoftware/iot-esp-kubernetes-reference-architecture-guide/blob/master/single_user_clients/images/testDeployment.png)
