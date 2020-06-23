@@ -1,8 +1,8 @@
 In this section, we will use the web clients SAS Event Stream Processing Studio and SAS Event Stream Manager to create, deploy, test, and manage the ESP projects.
 
-* [Working with Web Clients](single_user_clients/DemoExamplesClients.md#working-with-web-clients)
-    * [SAS Event Stream Processing Studio](single_user_clients/DemoExamplesClients.md#sas-event-stream-processing-studio)
-    * [SAS Event Stream Manager](single_user_clients/DemoExamplesClients.md#sas-event-stream-manager)
+* [Working with Web Clients](DemoExamplesClients.md#working-with-web-clients)
+    * [SAS Event Stream Processing Studio](DemoExamplesClients.md#sas-event-stream-processing-studio)
+    * [SAS Event Stream Manager](DemoExamplesClients.md#sas-event-stream-manager)
 
 # Working with Web Clients
 
