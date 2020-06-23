@@ -53,9 +53,18 @@ When you stop the project, the server is also deleted from the Kubernetes cluste
 
 ## SAS Event Stream Manager
 
-Open the SAS Event Stream Manager in the browser using the URL:
+Open the SAS Event Stream Manager in the browser using the url
 http://esm.espkube.sas.com/SASEventStreamManager
 
-* We will now create Deployment under the `Deployments` tab. As a sample example, we have created a deployement called `testDeployment`.
+* We will now create Deployment under the `Deployments` tab. As a sample example, we have created a deployement called `testDeployment`. Note that there is no running project currently.
 
 ![Create testDeployment](https://github.com/sassoftware/iot-esp-kubernetes-reference-architecture-guide/blob/master/single_user_clients/images/testDeployment.png)
+
+* In the `Projects` tab we will add a project. We will download the project we created in ESP Studio and upload it here. We have to do this because the ESP Studio runs in Standalone mode and Event Stream Manager cannot detect the projects automatically.
+
+![Load the ESP Project](https://github.com/sassoftware/iot-esp-kubernetes-reference-architecture-guide/blob/master/single_user_clients/images/loadProject.png)
+
+* Now go to the Deployment `testDeployment` and click on the cloud icon shown in the green box. Select option `Load and Start Project in Cluster`.
+
+![Load the Project in Deployment](https://github.com/sassoftware/iot-esp-kubernetes-reference-architecture-guide/blob/master/single_user_clients/images/startProject.png)
+
