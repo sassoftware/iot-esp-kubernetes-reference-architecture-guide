@@ -64,7 +64,7 @@ http://esm.espkube.sas.com/SASEventStreamManager
 
 ![Load the ESP Project](https://github.com/sassoftware/iot-esp-kubernetes-reference-architecture-guide/blob/master/single_user_clients/images/loadProject.png)
 
-* Now go to the Deployment `testDeployment` and click on the cloud icon shown in the green box. Select option `Load and Start Project in Cluster`.
+* Now go to the Deployment `testDeployment` and click on the cloud icon shown inside the green box. Select option `Load and Start Project in Cluster`.
 
 ![Load the Project in Deployment](https://github.com/sassoftware/iot-esp-kubernetes-reference-architecture-guide/blob/master/single_user_clients/images/startProject.png)
 
