@@ -73,4 +73,12 @@ http://esm.espkube.sas.com/SASEventStreamManager
 
 ![Set Deployment Settings](https://github.com/sassoftware/iot-esp-kubernetes-reference-architecture-guide/blob/master/single_user_clients/images/setDeploymentSettings.png)
 
+* Project will start and run under the `testDeployment`. In your Kubernetes environment as well you will a new pod has started and its ingress hostname is same as the one shown in the SAS Event Stream Manager.
+
+![Running Project](https://github.com/sassoftware/iot-esp-kubernetes-reference-architecture-guide/blob/master/single_user_clients/images/runningProject.png)
+
+* In the `Deployments` tab, you can see the `testDeployment` and the running project under it.
+
+![Deployment with Running Project](https://github.com/sassoftware/iot-esp-kubernetes-reference-architecture-guide/blob/master/single_user_clients/images/deploymentTab.png)
+
 ## SAS Event Stream Processing Streamviewer
