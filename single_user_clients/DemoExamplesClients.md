@@ -84,7 +84,7 @@ http://esm.espkube.sas.com/SASEventStreamManager
 * You can also check the `Metering` tab. This gives the information about the running metering server with hostname *espmeter.espkube.sas.com* at port 80.
 The server provides the information of number the events processed by each ESP Server over a defined period of time.
 
-![Metering Server](https://github.com/sassoftware/iot-esp-kubernetes-reference-architecture-guide/blob/master/single_user_clients/images/meter.png)
+![Metering Server](https://github.com/sassoftware/iot-esp-kubernetes-reference-architecture-guide/blob/master/single_user_clients/images/ESMmeter.png)
 
 ## SAS Event Stream Processing Streamviewer
 
