@@ -98,4 +98,6 @@ Now, lets explore the SAS Event Stream Processing Streamviewer. In your browser 
 
 ![ESP Subscriber](https://github.com/sassoftware/iot-esp-kubernetes-reference-architecture-guide/blob/master/single_user_clients/images/ESPSubscriber.png)
 
+* Once you have the ESP Subscriber, you will see your dashboard with a chart having the streaming data for the subscribed window. With SAS ESP Streamviewer you can subscribe to as many windows you like and create different charts.
 
+![ESP Streamviewer Dashboard](https://github.com/sassoftware/iot-esp-kubernetes-reference-architecture-guide/blob/master/single_user_clients/images/dashboardforWindow.png)
