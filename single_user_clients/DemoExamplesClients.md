@@ -68,3 +68,8 @@ http://esm.espkube.sas.com/SASEventStreamManager
 
 ![Load the Project in Deployment](https://github.com/sassoftware/iot-esp-kubernetes-reference-architecture-guide/blob/master/single_user_clients/images/startProject.png)
 
+* Untick the `Use default settings` and click on `Edit deployment settings`. Now here you can configure the memory and CPU resources requests and limits for the running ESP Server pod and also set the auto-scaling parameters. In our example we have set memory and CPU to 1Gi and 1, respectively, for both requests and limits.
+
+![Set Deployment Settings](https://github.com/sassoftware/iot-esp-kubernetes-reference-architecture-guide/blob/master/single_user_clients/images/setDeploymentSettings.png)
+
+
