@@ -81,4 +81,21 @@ http://esm.espkube.sas.com/SASEventStreamManager
 
 ![Deployment with Running Project](https://github.com/sassoftware/iot-esp-kubernetes-reference-architecture-guide/blob/master/single_user_clients/images/deploymentTab.png)
 
+* You can also check the `Metering` tab. This gives the information about the running metering server with hostname *espmeter.espkube.sas.com* at port 80.
+The server provides the information of number the events processed by each ESP Server over a defined period of time.
+
+![Metering Server](https://github.com/sassoftware/iot-esp-kubernetes-reference-architecture-guide/blob/master/single_user_clients/images/meter.png)
+
 ## SAS Event Stream Processing Streamviewer
+
+Now, lets explore the SAS Event Stream Processing Streamviewer. In your browser use the url: http://streamviewer.espkube.sas.com/SASEventStreamProcessingStreamviewer
+
+* Click on the icon inside the green box and it will list all the ESP Servers currently running in the Kubernetes cluster. ESP Server inside the green box is the one we just started in our deployment using SAS Event Stream Manager.
+
+![ESP Servers in Streamviewer](https://github.com/sassoftware/iot-esp-kubernetes-reference-architecture-guide/blob/master/single_user_clients/images/AddESPServer.png)
+
+* SAS ESP Streamviewer allows the users to subscribe to window/(s) of these running projects and visualize the streaming data. Let's now create an ESP Subscriber. Click on the icon inside the green box on the top bar to open the panel to create the subscriber. In this window, as shown the figure below, you can select the server, project, one of the windows in the project, the mode and others.
+
+![ESP Subscriber](https://github.com/sassoftware/iot-esp-kubernetes-reference-architecture-guide/blob/master/single_user_clients/images/ESPSubscriber.png)
+
+
