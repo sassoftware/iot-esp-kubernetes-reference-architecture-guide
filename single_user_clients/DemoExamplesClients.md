@@ -3,6 +3,7 @@ In this section, we will use the web clients SAS Event Stream Processing Studio 
 * [Working with Web Clients](DemoExamplesClients.md#working-with-web-clients)
     * [SAS Event Stream Processing Studio](DemoExamplesClients.md#sas-event-stream-processing-studio)
     * [SAS Event Stream Manager](DemoExamplesClients.md#sas-event-stream-manager)
+    * [SAS Event Stream Processing Streamviewer](DemoExamplesClients.md#sas-event-stream-processing-streamviewer)
 
 # Working with Web Clients
 
@@ -72,4 +73,4 @@ http://esm.espkube.sas.com/SASEventStreamManager
 
 ![Set Deployment Settings](https://github.com/sassoftware/iot-esp-kubernetes-reference-architecture-guide/blob/master/single_user_clients/images/setDeploymentSettings.png)
 
-
+## SAS Event Stream Processing Streamviewer
