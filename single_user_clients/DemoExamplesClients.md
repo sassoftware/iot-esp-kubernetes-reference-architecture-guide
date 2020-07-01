@@ -10,7 +10,7 @@ In this section, we will use the web clients SAS Event Stream Processing Studio 
 # Working with Web Clients
 
 ## SAS Event Stream Processing Studio
-Open the SAS ESP Studio in the web browser (Google Chrome preferred) using the url http://espstudio.espkube.sas.com/SASEventStreamProcessingStudio/
+Open the SAS ESP Studio in the web browser (Google Chrome preferred) using the url: espstudio.<K8s_namespace>.sas.com/SASEventStreamProcessingStudio
 
 * The three cloud native deployment [examples](operator/DemoExamples.md) we deployed previously can now be seen under the `ESP Servers` tab in the Studio. In the server properties, you can notice the `host` as `array.espkube.sas.com` which is nothing but the ingress for this deployment.
 
@@ -56,8 +56,7 @@ When you stop the project, the server is also deleted from the Kubernetes cluste
 
 ## SAS Event Stream Manager
 
-Open the SAS Event Stream Manager in the browser using the url
-http://esm.espkube.sas.com/SASEventStreamManager
+Open the SAS Event Stream Manager in the browser using the url: esm.<K8s_namespace>.sas.com/SASEventStreamManager
 
 * We will now create Deployment under the `Deployments` tab. As a sample example, we have created a deployement called `testDeployment`. Note that there is no running project currently.
 
@@ -90,7 +89,7 @@ The server provides the information of number the events processed by each ESP S
 
 ## SAS Event Stream Processing Streamviewer
 
-Now, lets explore the SAS Event Stream Processing Streamviewer. In your browser use the url: http://streamviewer.espkube.sas.com/SASEventStreamProcessingStreamviewer
+Now, lets explore the SAS Event Stream Processing Streamviewer. In your browser use the url: streamviewer.<K8s_namespace>.sas.com/SASEventStreamProcessingStreamviewer
 
 * Click on the icon inside the green box and it will list all the ESP Servers currently running in the Kubernetes cluster. ESP Server inside the green box is the one we just started in our deployment using SAS Event Stream Manager.
 
