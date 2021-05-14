@@ -208,8 +208,13 @@ Add the following line in `/etc/exports` file at the master node:
 /mnt/data 10.104.0.0/16(rw,sync,no_root_squash)
 ````
 
-On all the worker nodes, add the following line in `/etc/fstab` file:
+On all the worker nodes, 
+```sh
+sudo yum install nfs-utils nfs-utils-lib
+sudo showmount -e 10.104.16.117
+````
 
+Add the following line in `/etc/fstab` file:
 ```posh
 11.111.11.11:/mnt/data /mnt/data  nfs defaults 0 0
 ````
