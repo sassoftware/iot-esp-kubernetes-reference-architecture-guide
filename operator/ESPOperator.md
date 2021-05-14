@@ -536,7 +536,7 @@ The filebrowser provides all the features of a file system. Now we will execute 
 Configure the filebrowser to access the persistent storage which is already set up at the location `/mnt/data/espkube`:
 
 ```sh
-# filebrowser -r /mnt/data/espkube/
+# filebrowser -r /mnt/data/espkube/ &
 ````
 
 After configuring the filebrowser, you can deploy the manifest to start a filebrowser pod with the file `fileb.yaml` at the location `operator/deploy`.
