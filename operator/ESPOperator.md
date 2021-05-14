@@ -530,7 +530,7 @@ The filebrowser allows the user to perform the following tasks list below:
 The filebrowser provides all the features of a file system. Now we will execute the following script which will download and install the filebrowser:
 
 ```sh
-# curl -fsSL https://filebrowser.xyz/get.sh | bash
+# curl -fsSL https://raw.githubusercontent.com/filebrowser/get/master/get.sh | bash
 ````
 
 Configure the filebrowser to access the persistent storage which is already set up at the location `/mnt/data/espkube`:
