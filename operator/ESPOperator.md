@@ -200,6 +200,10 @@ Run the following commands from the master node as root user:
 # sudo systemctl  restart nfs
 # sudo journalctl -xf
 # sudo chmod 777 /mnt/data/
+#  sudo systemctl enable nfs-server.service
+# sudo systemctl start nfs-server.service
+# sudo systemctl enable rpcbind
+# sudo systemctl start rpcbind
 ````
 
 Add the following line in `/etc/exports` file at the master node:
@@ -210,8 +214,8 @@ Add the following line in `/etc/exports` file at the master node:
 
 On all the worker nodes, 
 ```sh
-sudo yum install nfs-utils nfs-utils-lib
-sudo showmount -e 11.111.11.11
+# sudo yum install nfs-utils nfs-utils-lib
+# sudo showmount -e 11.111.11.11
 ````
 
 Add the following line in `/etc/fstab` file:
