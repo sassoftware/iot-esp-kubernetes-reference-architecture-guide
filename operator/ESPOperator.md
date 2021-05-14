@@ -211,7 +211,7 @@ Add the following line in `/etc/exports` file at the master node:
 On all the worker nodes, 
 ```sh
 sudo yum install nfs-utils nfs-utils-lib
-sudo showmount -e 10.104.16.117
+sudo showmount -e 11.111.11.11
 ````
 
 Add the following line in `/etc/fstab` file:
