@@ -195,12 +195,12 @@ We use the same directory structure for our NFS.
 Run the following commands from the master node as root user:
 
 ```sh
-# yum install nfs-utils nfs-utils-lib
-# chkconfig --level 35 nfs on
+# sudo yum install nfs-utils nfs-utils-lib
+# sudo chkconfig --level 35 nfs on
 # sudo systemctl  restart nfs
 # sudo journalctl -xf
 # sudo chmod 777 /mnt/data/
-#  sudo systemctl enable nfs-server.service
+# sudo systemctl enable nfs-server.service
 # sudo systemctl start nfs-server.service
 # sudo systemctl enable rpcbind
 # sudo systemctl start rpcbind
@@ -212,15 +212,16 @@ Add the following line in `/etc/exports` file at the master node:
 /mnt/data 10.104.0.0/16(rw,sync,no_root_squash)
 ````
 
-On all the worker nodes, 
+On all the worker nodes, add the following line in `/etc/fstab` file:
+```posh
+11.111.11.11:/mnt/data /mnt/data  nfs defaults 0 0
+````
+and run the following commands on all worker nodes:
+
 ```sh
 # sudo yum install nfs-utils nfs-utils-lib
 # sudo showmount -e 11.111.11.11
-````
-
-Add the following line in `/etc/fstab` file:
-```posh
-11.111.11.11:/mnt/data /mnt/data  nfs defaults 0 0
+# sudo mount 11.111.11.11:/mnt/data /mnt/data
 ````
 
 ### Persistent Volume (pv) and Persistent Volume Claim (pvc)
